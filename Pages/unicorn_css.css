@@ -1,0 +1,381 @@
+/********* Main Body *********/
+
+body {
+	background-image: url("../Images/club_background.jpg");
+	background-repeat: no-repeat;
+}
+
+/******** Nav Bar *********/
+
+.nav-item {
+	padding: 2px;
+	padding-top: 5px; 
+}
+
+.nav-bar-item {
+	width:12%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.2em;
+}
+
+.search-login {
+	font-family: 'Source Sans Pro', sans-serif;
+	float: right;
+	padding-right: 15px;
+	font-size: 1.2em;
+}
+
+.search-login:hover {
+	transform: scale(1.2);
+}
+
+.search-login a {
+	text-decoration: none;
+	color: white;
+	transition:.1s;
+}
+
+.search-login a:hover {
+	/*color: #c082be;*/
+}
+
+.nav-bar-item a {
+	color: white;
+}
+
+.nav-bar-item a:hover,
+.active a {
+	color: #c082be;
+	transform: scale(1.1);
+
+}
+
+.search-bar {
+	width: 20%;
+	padding-top: 3px;
+}
+
+.nav-container {
+	background-image: url("../Images/backgroundtexture85.png");
+	border-bottom: 3px white groove;
+	z-index: 100;
+}
+
+.nav-items {
+	padding-bottom: 5px;
+}
+
+
+/********** Main Logo ***********/
+.logo-wrapper {
+	margin-top: 39px;
+	text-align: center;
+	background-image: url("../Images/backgroundtexture85.png");
+	border-bottom: 5px white groove;
+}
+.logo {
+	height: 250px;
+	width: 250px;
+	border-radius: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/********** About Us ***********/
+
+.profile-type {
+	width: 30%;
+	min-height: 425px;
+	color:white;
+	margin-top: 4%;
+	margin-left: 3%;
+	margin-bottom: 5%;
+	border-width:5px;
+	border-style:groove;
+	border-color: white;
+	background-image: url("../Images/backgroundtexture85.png");
+	transition: .3s;
+	background-repeat:repeat;
+	border-radius: 5px;
+}
+
+.profile-type ul {
+	list-style: square;
+	font-size: 1em;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 10px;
+}
+
+.profile-type h1 {
+	font-family: 'Monoton', cursive;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 2em;
+}
+
+.profile-type a {
+	text-decoration: none;
+	color: white;
+}
+
+.profile-type a:hover {
+	color:#c082be;
+}
+
+.profile-type:hover {
+	transform: scale(1.1);
+}
+
+/********** Join Button **********/
+
+.btn-join {
+   -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 3px #666666;
+  -moz-box-shadow: 1px 1px 3px #666666;
+  box-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #000000;
+  font-size: 16px;
+  background: #ffffff;
+  padding: 10px 25px 10px 25px;
+  border: solid #000000 2px;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn-join:hover {
+  background: #c082be;
+  background-image: -webkit-linear-gradient(top, #c082be, #ddc8eb);
+  background-image: -moz-linear-gradient(top, #c082be, #ddc8eb);
+  background-image: -ms-linear-gradient(top, #c082be, #ddc8eb);
+  background-image: -o-linear-gradient(top, #c082be, #ddc8eb);
+  background-image: linear-gradient(to bottom, #c082be, #ddc8eb);
+  text-decoration: none;
+}
+
+.btn-div {
+	text-align: center;
+	top: 87%;
+	left:35%;
+	position: absolute;
+}
+
+/********** Who We Are **********/
+
+.bio-container {
+	background:#D3D3D3;
+	padding-top: 20px;
+	border-top: 5px white groove;
+}
+
+.bio-container h1 {
+	font-family: 'Monoton', cursive;
+	padding-top: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.bio-container p {
+	font-size: 1.3em;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-right: 8%;
+	padding-left: 8%;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+
+.bio-container a {
+	text-decoration: none;
+	color: #c082be;
+}
+
+.bio-container a:hover {
+	text-decoration: underline;
+}
+
+/********** Account Options **********/
+
+.account-container {
+	background-image: url("../Images/Music-notes2.png");
+	background-color: #F0F0F0;
+	background-size: 100%;
+	padding-bottom: 20px;
+	border-top: 5px white groove;
+}
+
+.account-container h1 {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	font-weight: bold;
+}
+
+.account-container h1,
+.account-container h3 {
+	font-family: 'Monoton', cursive;
+}
+
+.account-row {
+	margin-top: 20px;
+	margin-left: 10%;
+	border: 5px white groove;
+	width: 70%;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-image: url("../Images/backgroundtexture85.png");
+	color: white;
+	transition: .3s;
+}
+
+.account-row ul {
+	list-style: square;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.3em;
+}
+
+.account-row:hover {
+	transform: scale(1.1);
+}
+
+/********** App Ad **********/
+
+.skyline-row {
+	border-top:5px white groove;
+}
+
+.skyline-row h1 {
+	font-family: 'Monoton', cursive;
+	font-weight: bold;
+	float: left;
+	color: white;
+	position: relative;
+	margin-top: -325px;
+	margin-left: 30px;
+	font-size: 4.9em;
+}
+
+.unicorn-app {
+	z-index: 3;
+}
+
+.download-row {
+	height: 250px;
+	border-top: 5px white groove;
+}
+
+.download-row img {
+	margin-top: -225px;
+	margin-left: 30px;
+	position: relative;
+	left: 54%;
+}
+
+.download-row h3 {
+	font-family: 'Monoton', cursive;
+	margin-top: -200px;
+	margin-left: 40px;
+	color: white;
+}
+
+.app-row {
+	margin-left: 25px;
+}
+
+.app-download {
+	position: relative;
+	margin-top: -225px;
+	margin-left: 20px;
+}
+
+.download-row,
+.app-row {
+	background-image: url("../Images/backgroundtexture85.png");
+}
+
+.app-row {
+	height: 0;
+}
+
+.app-row a img {
+	transition: .2s;
+}
+
+.app-row a img:hover {
+	transform: scale(1.1);
+}
+
+
+
+
+
+/********** Footer **********/
+
+.footer-row {
+	padding-top: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+	background-color: #575757;
+	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-2.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	border-top: 5px white groove;
+}
+
+.footer-row h4 {
+	color: white;
+	font-family: 'Monoton', cursive;
+	padding-bottom: 10px;
+}
+
+.footer-row a img {
+	transition: .2s;
+}
+
+.footer-row ul {
+	list-style: none;
+	padding-left: 20px;
+}
+
+.footer-row ul a {
+	text-decoration: none;
+	color: white;
+	transition: .1s;
+}
+
+.footer-row ul a:hover {
+	color: #c082be;
+}
+
+.footer-row li:hover {
+	transform: scale(1.1);
+}
+
+.copyright {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.copyright a {
+	color: #F0F0F0;
+	text-decoration: none;
+}
+
+.copyright a:hover {
+	color: #c082be;
+}
+
+.social-icons {
+	margin-left: 10px;
+	margin-top: 10px;
+	transition: .2s;
+}
+
+.social-icons-col img:hover {
+	transform:scale(1.4);
+}
+
+
