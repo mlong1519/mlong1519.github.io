@@ -18,6 +18,10 @@ body {
 	font-size: 1.2em;
 }
 
+.home {
+	width: 9%;
+}
+
 .search-login {
 	font-family: 'Source Sans Pro', sans-serif;
 	float: right;
@@ -268,15 +272,15 @@ body {
 
 .download-row img {
 	margin-top: -225px;
-	margin-left: 30px;
+	margin-left: 40px;
 	position: relative;
 	left: 54%;
 }
 
 .download-row h3 {
 	font-family: 'Monoton', cursive;
-	margin-top: -200px;
-	margin-left: 40px;
+	margin-top: -150px;
+	margin-left: 35px;
 	color: white;
 }
 
@@ -286,7 +290,7 @@ body {
 
 .app-download {
 	position: relative;
-	margin-top: -225px;
+	margin-top: -200px;
 	margin-left: 20px;
 }
 

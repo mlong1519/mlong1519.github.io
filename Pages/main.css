@@ -1,0 +1,377 @@
+/******** Nav Bar *********/
+
+.logo {
+	float:left;
+	padding-left: 0;
+	margin-right: 30px;
+	margin-top: 7px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	background-color: black;
+	border-radius: 5px;
+}
+
+.logo:hover {
+	transform: scale(1.2);
+	background-color: black;
+}
+
+.nav-item {
+	padding: 2px;
+	padding-top: 8px; 
+}
+
+.nav-bar-item {
+	width:12%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.2em;
+}
+
+.home {
+	width: 9%;
+}
+
+.search-login {
+	font-family: 'Source Sans Pro', sans-serif;
+	float: right;
+	padding-right: 15px;
+	font-size: 1.2em;
+}
+
+.search-login:hover {
+	transform: scale(1.2);
+}
+
+.search-login a {
+	text-decoration: none;
+	color: white;
+	transition:.1s;
+}
+
+.search-login a:hover {
+	/*color: #c082be;*/
+}
+
+.nav-bar-item a {
+	color: white;
+}
+
+.nav-bar-item a:hover,
+.active a {
+	color: #c082be;
+	transform: scale(1.1);
+
+}
+
+.search-bar {
+	width: 20%;
+	padding-top: 3px;
+}
+
+.nav-container {
+	background-image: url("../Images/backgroundtexture85.png");
+	border-bottom: 3px white groove;
+	z-index: 100;
+	height: 45px;
+}
+
+.nav-items {
+	padding-bottom: 5px;
+}
+
+
+/********** Search Bar **********/
+
+.search-bar-container {
+	background:#D3D3D3;
+}
+
+.input-group {
+	padding-left: 20px;
+}
+
+.search-bar {
+	margin-top: 75px;
+	width: 80%;
+	margin-left: 35px;
+}
+
+.checkbox {
+	margin-left: 55px;
+	margin-top: 10px;
+}
+
+.advanced-search h5 {
+	padding-top: 10px;
+	width: 170px;
+	padding-right: 0;
+	margin-left: 0;
+}
+
+.advanced-search a {
+	text-decoration: underline;
+	color: black;
+}
+
+.advanced-search a:hover {
+	color: #c082be;
+}
+
+/********** Advanced Search Modal **********/
+
+.adv-btn {
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #c082be;
+	border: none;
+	color: white;
+}
+
+.adv-btn:hover {
+	background: #996898;
+}
+
+.adv-btn:active {
+	background: #996898;
+	border: none;
+}
+
+.adv-btn:visited {
+	background: #996898;
+	border: none;
+}
+
+.adv-btn:focus {
+	background: #996898;
+	border: none;
+}
+
+.field {
+	width: 90%;
+}
+
+.modal-lg {
+	width: 90%;
+}
+
+/********** Results Heading Row **********/
+
+.results-row {
+	margin-left: 5px;
+}
+
+.results-row h1,
+.results-row h2 {
+	margin-left: 20px;
+}
+
+.results-row h2 {
+	margin-top: 5px;
+	padding-top: 0;
+	padding-left: 15px;
+}
+
+/********** Profiles **********/
+
+.profile-type {
+	border: 2px black solid;
+	margin-left: 7%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 85%;
+	-webkit-box-shadow: 9px 10px 17px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 9px 10px 17px 1px rgba(0,0,0,0.75);
+	box-shadow: 9px 10px 17px 1px rgba(0,0,0,0.75);
+	transition: .2s;
+	background: #F0F0F0;
+}
+
+.profile-col {
+	padding-right: 10px;
+}
+
+.profile-type:hover {
+	transform: scale(1.05);
+	-webkit-box-shadow: 20px 20px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 20px 20px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 20px 20px 10px 0px rgba(0,0,0,0.75);
+
+}
+
+.profile-type h4 {
+	padding-top: 10px;
+}
+
+.profile-type h4 a {
+	color:black;
+	text-decoration: none;
+}
+
+.profile-type h4 a:hover {
+	color: #c082be;
+}
+
+.third-col {
+	margin-top: 45px;
+}
+
+.page-row {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.page-row a {
+	color: #c082be;
+}
+
+.page-row a:hover {
+	color: #996898;
+}
+
+
+/********** Profile Photos **********/
+
+.grid {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	max-width: 1300px;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+	width: 150px;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+	border-radius: 10px;
+	height: 150px;
+	width: 150px;
+	padding: 0;
+	/*background: white;*/
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+	background: rgba(0,0,0,.85);
+	color: white;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding-bottom: 5px;
+	padding-top:10px;
+	color: #0acbee;
+}
+
+.grid figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #c082be;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.cs-style-1 figcaption {
+	height: 150px;
+	width: 150px;
+	opacity: 0;
+	text-align: center;
+	backface-visibility: hidden;
+	transition: transform 0.3s, opacity 0.3s;
+	border-radius: 10px;
+	font-size:.8em;
+}
+
+.cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+	opacity: 1;
+}
+
+.cs-style-1 figcaption a {
+	margin-top: 15px;
+	position: relative;
+	top: 30%;
+	transform: scale(1.5);
+}
+
+/********** Footer **********/
+
+.footer-row {
+	padding-top: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+	background-color: #575757;
+	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-2.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	border-top: 5px white groove;
+	width: 100%;
+}
+
+.footer-row h4 {
+	color: white;
+	font-family: 'Monoton', cursive;
+	padding-bottom: 10px;
+}
+
+.footer-row a img {
+	transition: .2s;
+}
+
+.footer-row ul {
+	list-style: none;
+	padding-left: 20px;
+}
+
+.footer-row ul a {
+	text-decoration: none;
+	color: white;
+	transition: .1s;
+}
+
+.footer-row ul a:hover {
+	color: #c082be;
+}
+
+.footer-row li:hover {
+	transform: scale(1.1);
+}
+
+.copyright {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.copyright a {
+	color: #F0F0F0;
+	text-decoration: none;
+}
+
+.copyright a:hover {
+	color: #c082be;
+}
+
+.social-icons {
+	margin-left: 10px;
+	margin-top: 10px;
+	transition: .2s;
+}
+
+.social-icons-col img:hover {
+	transform:scale(1.4);
+}

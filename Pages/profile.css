@@ -1,0 +1,356 @@
+/******** Nav Bar *********/
+
+.logo {
+	float:left;
+	padding-left: 0;
+	margin-right: 30px;
+	margin-top: 7px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	background-color: black;
+	border-radius: 5px;
+}
+
+.logo:hover {
+	transform: scale(1.2);
+	background-color: black;
+}
+
+.nav-item {
+	padding: 2px;
+	padding-top: 8px; 
+}
+
+.nav-bar-item {
+	width:12%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.2em;
+}
+
+.home {
+	width: 9%;
+}
+
+.search-login {
+	font-family: 'Source Sans Pro', sans-serif;
+	float: right;
+	padding-right: 15px;
+	font-size: 1.2em;
+}
+
+.search-login:hover {
+	transform: scale(1.2);
+}
+
+.search-login a {
+	text-decoration: none;
+	color: white;
+	transition:.1s;
+}
+
+.search-login a:hover {
+	/*color: #c082be;*/
+}
+
+.nav-bar-item a {
+	color: white;
+}
+
+.nav-bar-item a:hover,
+.active a {
+	color: #c082be;
+	transform: scale(1.1);
+
+}
+
+.search-bar {
+	width: 20%;
+	padding-top: 3px;
+}
+
+.nav-container {
+	background-image: url("../Images/backgroundtexture85.png");
+	border-bottom: 3px white groove;
+	z-index: 100;
+	height: 45px;
+}
+
+.nav-items {
+	padding-bottom: 5px;
+}
+
+/*********** General Profile ************/
+
+.profile-container {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+	background:#D3D3D3;
+}
+
+
+/*********** Banner Photo and Profile Photo ************/
+
+.photo-row {
+	text-align: center;
+}
+
+.photo-row h1 {
+	margin-top: 25px;
+}
+
+.banner-photo {
+	width: 95%;
+	border: 3px solid gray;
+	margin-top: 60px;
+}
+
+.profile-photo {
+	height: 200px;
+	width: 200px;
+	border: 3px solid gray;
+	margin-left: 15%;
+	margin-top: -100px;
+}
+
+.profile-name {
+	text-align: center;
+	margin-top: 2%;
+}
+
+/*********** Short Info and Message Section ************/
+
+.individual-social {
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+.short-info ul {
+	list-style: none;
+	margin-top: 4%;
+}
+
+.list-group h5 {
+	display: inline;
+}
+
+.list-group-item {
+	background: #F0F0F0;
+}
+
+.short-info ul a {
+	color: #c082be;
+	text-decoration: none;
+}
+
+.short-info ul a:hover {
+	color: #996898;
+}
+
+.btn {
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #c082be;
+	border: none;
+	color: white;
+}
+
+.btn:hover {
+	background: #996898;
+	color: white;
+}
+
+.btn:active {
+	background: #996898;
+	border: none;
+}
+
+.btn:visited {
+	background: #996898;
+	border: none;
+}
+
+.btn:focus {
+	background: #996898;
+	border: none;
+}
+
+/********** Collapsing Divs **********/
+
+.panel-heading {
+	background: #F0F0F0;
+	display: inline-block;
+	width: 80%;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	margin-left: 120px;
+	margin-top: 20px;
+	-webkit-box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+}
+
+.panel-heading a {
+	color: black;
+}
+
+.panel-heading a:hover {
+	color: #c082be;
+	text-decoration: none;
+}
+
+.panel-collapse {
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 130px;
+	background: #F0F0F0;
+	border: 3px solid black;
+	width: 75%;
+}
+
+.photos-div {
+	width: 30%;
+	height: 30%;
+	margin: 10px 2.5px 10px 5px;
+}
+
+/********** Endorsements **********/
+
+.endorsement-pic {
+	width: 33px;
+	height: 33px;
+	border-radius: 3px;
+	margin-left: 10px;
+}
+
+/********** Tooltips for Endorsements **********/
+
+/* Tooltip container */
+.tooltip1 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+}
+
+.tooltip1 .tooltiptext1 {
+    width: 120px;
+    bottom: 120%;
+    left: 50%; 
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.tooltip1 .tooltiptext1::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+/********** Fake Posts **********/
+
+.card-block a {
+	color: #c082be;
+}
+
+.card-block a:hover {
+	color: #996898;
+}
+
+.card-subtitle {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+/********** Footer **********/
+
+.footer-row {
+	padding-top: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+	background-color: #575757;
+	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-2.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	border-top: 5px white groove;
+	width: 100%;
+}
+
+.footer-row h4 {
+	color: white;
+	font-family: 'Monoton', cursive;
+	padding-bottom: 10px;
+}
+
+.footer-row a img {
+	transition: .2s;
+}
+
+.footer-row ul {
+	list-style: none;
+	padding-left: 20px;
+}
+
+.footer-row ul a {
+	text-decoration: none;
+	color: white;
+	transition: .1s;
+}
+
+.footer-row ul a:hover {
+	color: #c082be;
+}
+
+.footer-row li:hover {
+	transform: scale(1.1);
+}
+
+.copyright {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.copyright a {
+	color: #F0F0F0;
+	text-decoration: none;
+}
+
+.copyright a:hover {
+	color: #c082be;
+}
+
+.social-icons {
+	margin-left: 10px;
+	margin-top: 10px;
+	transition: .2s;
+}
+
+.social-icons-col img:hover {
+	transform:scale(1.4);
+}

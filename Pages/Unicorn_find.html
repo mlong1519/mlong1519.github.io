@@ -8,25 +8,24 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="unicorn_css.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>unicorn</title>
-    <link rel="shortcut icon" type="image/x-icon" href="../unicorn_logo.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="../Images/invertedlogo.png" />
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
   </head>
+  <body>
 
-<body>
-  <div class="nav-container container-fluid navbar-fixed-top">
+<div class="nav-container container-fluid navbar-fixed-top">
   <div class="row center-block">
     <ul class="nav nav-inline center-block nav-items">
-      <li class="nav-item nav-bar-item">
-        <a class="nav-link p-r-0" href="Unicorn_front.html">About Us</a>
+      <a href="index.html"><li class="logo"><img src="../Images/invertedlogowhite.png" style="width:60px;height:60px;border-radius:5px"></li></a>
+      <li class="nav-item nav-bar-item home">
+        <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item nav-bar-item">
-        <a class="nav-link" href="#">My Profile</a>
-      </li>
-      <li class="nav-item nav-bar-item">
-        <a class="nav-link active" href="Unicorn_find.html">Find Musicians</a>
+        <a class="nav-link" href="profile.html">My Profile</a>
       </li>
       <li class="nav-item nav-bar-item">
         <a class="nav-link" href="#">Classifieds</a>
@@ -37,35 +36,231 @@
       <li class="nav-item nav-bar-item">
         <a class="nav-link" href="#">Rentals</a>
       </li>
-      <li class="nav-item search-login"><a href="#"><img src="../search-icon.gif" style="width:15px;height:15px;">  Search</a></li>
-      <li class="nav-item search-login"><a href="#"><img src="../login.png" style="width:15px;height:15px;">  Log In</a></li>
+      <li class="nav-item search-login"><a href="#"><img src="../Images/login.png" style="width:12px;height:12px;padding-bottom:1px;">  Log In</a></li>
+      <li class="nav-item search-login"><a href="unicorn_find.html"><img src="../Images/search-icon.png" style="width:17px;height:17px;">  Search</a></li>
     </ul>
   </div>
+</div>
+
+<div class="container-fluid search-bar-container">
+  <div class="row search-row">
+    <div class="col-lg-12 search-bar">
+    <h1>Search for Musicians, Groups, and Industry Professionals</h1>
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Name, City or Zip Code">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button">Go!</button>
+      </span>
+    </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-2">
+      <div class="checkbox">
+        <label><input type="checkbox"> Musicians</label>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="checkbox">
+        <label><input type="checkbox"> Groups</label>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="checkbox">
+        <label><input type="checkbox"> Industry Professionals</label>
+      </div>
+    </div>
+    <div class="col-sm-3 col-sm-offset-1 advanced-search">
+      <a href="#" data-toggle="modal" data-target="#adv-search"><h5>Advanced Search</h5></a>
+    </div>
+  </div>
+  <div class="row results-row">
+    <h1>Nearby Results: </h1>
+    <h2>(Hover on picture for more info)</h2>
   </div>
 
-<div class="main-wrapper">
+  <!-- Individual Profile Bailey -->
 
-  <div class="logo-wrapper">
-    <a href="Unicorn_front.html"><img src="../invertedlogo.png" class="logo"></a>
+  <div class="row profile-type">
+    <div class="col-sm-3 profile-col">
+      <ul class="grid cs-style-1">
+        <li>
+          <figure>
+            <img src="../Images/baileyprofile.png" alt="img01">
+            <figcaption>
+              <a href="unicorn_find.html">View Profile</a>
+            </figcaption>
+          </figure>
+        </li>
+    </div>
+    <div class="col-sm-4">
+      <h4><a href="#">Bailey Sager</a></h4>
+      <ul>
+        <li> Location: Chicago</li>
+        <li> Female</li>
+        <li> Instruments: Drums, Percussion</li>
+        <li> Styles: Latin, Jazz, Classical</li>
+      </ul>
+    </div>
+    <div class="col-sm-4 third-col">
+      <ul>
+        <li> Experience: Advanced Intermediate</li>
+        <li> Looking for: Group to join</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Individual Profile Luke -->
+
+  <div class="row profile-type">
+    <div class="col-sm-3 profile-col">
+      <ul class="grid cs-style-1">
+        <li>
+          <figure>
+            <img src="../Images/lukejaxonprofile.png" alt="img01">
+            <figcaption>
+              <a href="unicorn_find.html">View Profile</a>
+            </figcaption>
+          </figure>
+        </li>
+    </div>
+    <div class="col-sm-4">
+      <h4><a href="#">Luke Jaxon</a></h4>
+      <ul>
+        <li> Location: Chicago</li>
+        <li> Male</li>
+        <li> Instruments: Guitar, Voice</li>
+        <li> Styles: Country, Rock</li>
+      </ul>
+    </div>
+    <div class="col-sm-4 third-col">
+      <ul>
+        <li> Experience: Intermediate</li>
+        <li> Looking for: Group to join</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Individual Profile Shelly -->
+
+  <div class="row profile-type">
+    <div class="col-sm-3 profile-col">
+      <ul class="grid cs-style-1">
+        <li>
+          <figure>
+            <img src="../Images/Shelleyprofile.png" alt="img01">
+            <figcaption>
+              <a href="unicorn_find.html">View Profile</a>
+            </figcaption>
+          </figure>
+        </li>
+    </div>
+    <div class="col-sm-4">
+      <h4><a href="#">Shelley Bishop</a></h4>
+      <ul>
+        <li> Location: Chicago</li>
+        <li> Female</li>
+        <li> Instruments: Saxophone, Keyboards, Production</li>
+        <li> Styles: Pop, Hip-hop, Jazz, Funk</li>
+      </ul>
+    </div>
+    <div class="col-sm-4 third-col">
+      <ul>
+        <li> Experience: Advanced</li>
+        <li> Looking for: Group to join</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Individual Profile Kenny -->
+
+  <div class="row profile-type">
+    <div class="col-sm-3 profile-col">
+      <ul class="grid cs-style-1">
+        <li>
+          <figure>
+            <img src="../Images/Kennyprofile.png" alt="img01">
+            <figcaption>
+              <a href="unicorn_find.html">View Profile</a>
+            </figcaption>
+          </figure>
+        </li>
+    </div>
+    <div class="col-sm-4">
+      <h4><a href="#">Kenny Sager</a></h4>
+      <ul>
+        <li> Location: Chicago</li>
+        <li> Male</li>
+        <li> Instruments: Drums, Percussion</li>
+        <li> Styles: Latin, Jazz, Country, Funk, Rock</li>
+      </ul>
+    </div>
+    <div class="col-sm-4 third-col">
+      <ul>
+        <li> Experience: Advanced</li>
+        <li> Looking for: Group to join</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Group Profile Freaks for Geeks -->
+
+  <div class="row profile-type">
+    <div class="col-sm-3 profile-col">
+      <ul class="grid cs-style-1">
+        <li>
+          <figure>
+            <img src="../Images/ffgphotos/ffglogo.jpg" alt="img01">
+            <figcaption>
+              <a href="ffgprofile.html">View Profile</a>
+            </figcaption>
+          </figure>
+        </li>
+    </div>
+    <div class="col-sm-4">
+      <h4><a href="ffgprofile.html">Freaks for Geeks</a></h4>
+      <ul>
+        <li> Location: Chicago</li>
+        <li> Group</li>
+        <li> Instruments: Guitar, Bass, Drums, Vocals</li>
+        <li> Styles: Pop, Hip-hop, Rock</li>
+      </ul>
+    </div>
+    <div class="col-sm-4 third-col">
+      <ul>
+        <li> Experience: Advanced</li>
+        <li> Looking for: Gigs and representation</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row page-row">
+    <div class="col-sm-2 col-sm-offset-3">
+      <a href="#"><h5></h5></a>
+    </div>
+    <div class="col-sm-2">
+      <h5>Page: <a href="#">1</a> of <a href="#">10</a></h5></a>
+    </div>
+    <div class="col-sm-2">
+      <a href="#"><h5>>></h5></a>
+    </div>
   </div>
 </div>
 
 <div class="container-fluid footer">
   <div class="row footer-row">
-    <div class="col-sm-3 col-sm-offset-2">
-      <h3>Links:</h3>
-      <ul>
-        <li><a href="#"><img src="../Social-icons/facebook.jpeg" style="height:20px;width:20px;border-radius:5px;">  Facebook</a></li>
-        <li><a href="#"><img src="../Social-icons/googleplus.png" style="height:20px;width:20px;border-radius:5px;">  Google+</a></li>
-        <li><a href="#"><img src="../Social-icons/instagram.png" style="height:20px;width:20px;border-radius:5px;">  Instagram</a></li>
-        <li><a href="#"><img src="../Social-icons/twitter.png" style="height:20px;width:20px;border-radius:5px;">  Twitter</a></li>
-      </ul>
+    <div class="social-icons-col col-sm-3 col-sm-offset-2">
+      <h4>Follow Us:</h4>
+        <a href="#" class="social-icons"><img src="../Images/Social-icons/facebook.jpeg" style="height:30px;width:30px;border-radius:5px;"></a>
+        <a href="#" class="social-icons"><img src="../Images/Social-icons/googleplus.png" style="height:30px;width:30px;border-radius:5px;"> </a>
+        <a href="#" class="social-icons"><img src="../Images/Social-icons/instagram.png" style="height:30px;width:30px;border-radius:5px;"></a>
+        <a href="#" class="social-icons"><img src="../Images/Social-icons/twitter.png" style="height:32px;width:32px;border-radius:5px;"></a>
     </div>
     <div class="col-sm-3 col-sm-offset-2">
-      <h3>Contact Us:</h3>
+      <h4>Contact Us:</h4>
       <ul>
-        <li><a href="#"><img src="../Social-icons/mail.png" style="height:20px;width:20px;border-radius:5px;">    findyour@unicorn.com</a></li>
-        <li><a href="#"><img src="../Social-icons/tele.png" style="height:20px;width:20px;border-radius:5px;">    +1 (312) 012-3456</a></li>
+        <li><a href="#"><img src="../Images/Social-icons/mail.png" style="height:20px;width:20px;border-radius:5px;">     findyour@unicorn.com</a></li>
+        <li><a href="#"><img src="../Images/Social-icons/tele.png" style="height:20px;width:20px;border-radius:5px;">     +1 (312) 012-3456</a></li>
       </ul>
     </div>
   </div>
@@ -77,8 +272,115 @@
     </div>
   </div>
 </div>
-  
 
+<!-- Advanced Search Modal -->
+
+<div class="modal fade" id="adv-search">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content container">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Advanced Search</h4>
+      </div>
+      <div class="row">
+      <div class="modal-body">
+        <div class="col-sm-6 m-b-1">
+        <fieldset class="form-group">
+          <label for="exampleInputPassword1"><h5>Name:</h5></label>
+          <input type="search" class="form-control m-b-0" id="exampleInputPassword1" placeholder="Name...">
+        </fieldset>
+        </div>
+        <div class="col-sm-6 m-b-1">
+        <fieldset class="form-group">
+          <label for="exampleSelect1"><h5>Location:</h5></label>
+          <select class="form-control field" id="exampleSelect1">
+            <option>Select One</option>
+            <option>Chicago</option>
+            <option>New York</option>
+            <option>Los Angeles</option>
+            <option>Miami</option>
+            <option>Seattle</option>
+          </select>
+        </fieldset>
+        </div>
+        <div class="col-sm-6 m-b-1">
+        <fieldset class="form-group">
+          <label for="exampleSelect1"><h5>Age:</h5></label>
+            <input type="checkbox" class="m-l-1"> 18-27
+            <input type="checkbox" class="m-l-1"> 28-37
+            <input type="checkbox" class="m-l-1"> 38-47
+            <input type="checkbox" class="m-l-1"> 48-57
+            <input type="checkbox" class="m-l-1"> 58+
+          </select>
+        </fieldset>
+        </div>
+        <div class="col-sm-6 m-b-1">
+        <fieldset class="form-group">
+          <label for="exampleSelect1"><h5>Gender:</h5></label>
+          <select class="form-control field" id="exampleSelect1">
+            <option>Select One</option>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </fieldset>
+        </div>
+        <div class="col-sm-6 m-b-1">
+        <fieldset class="form-group">
+          <label for="exampleSelect1"><h5>Genre(s):</h5></label>
+            <input type="checkbox" class="m-l-1"> Rock
+            <input type="checkbox" class="m-l-1"> Hip-hop
+            <input type="checkbox" class="m-l-1"> Pop
+            <input type="checkbox" class="m-l-1"> Alternative
+            <input type="checkbox" class="m-l-1"> Jazz
+            <input type="checkbox" class="m-l-1"> Classical
+            <input type="checkbox" class="m-l-1"> Electronic
+            <input type="checkbox" class="m-l-1"> Blues
+            <input type="checkbox" class="m-l-1"> World
+          </select>
+        </fieldset>
+        </div>
+        <div class="col-sm-6 m-b-1">
+        <fieldset class="form-group">
+          <label for="exampleSelect1"><h5>Instrument(s):</h5></label>
+            <input type="checkbox" class="m-l-1"> Guitar
+            <input type="checkbox" class="m-l-1"> Bass
+            <input type="checkbox" class="m-l-1"> Keyboards
+            <input type="checkbox" class="m-l-1"> Piano
+            <br>
+            <input type="checkbox" class="m-l-1"> Drums
+            <input type="checkbox" class="m-l-1"> Vocals
+            <input type="checkbox" class="m-l-1"> Saxophone
+            <input type="checkbox" class="m-l-1"> Trumpet
+            <input type="checkbox" class="m-l-1"> Trombone
+            <input type="checkbox" class="m-l-1 m-t-1"> Other
+          </select>
+        </fieldset>
+        </div>
+        <div class="col-sm-6 m-b-1">
+        <fieldset class="form-group">
+          <label for="exampleSelect1"><h5>Skill Level:</h5></label>
+          <select class="form-control field" id="exampleSelect1">
+            <option>Select One</option>
+            <option>Beginner</option>
+            <option>Advanced Beginner</option>
+            <option>Intermediate</option>
+            <option>Advanced Intermediate</option>
+            <option>Advanced</option>
+          </select>
+        </fieldset>
+        </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn adv-btn" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn adv-btn">Search</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+  
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
